@@ -2,6 +2,7 @@
 	margin:0; padding:0;
     
 }
+	
 img{
 	border:none;
 }
@@ -144,6 +145,12 @@ body{
 					.nav-catalog ul{
 						padding:5px 0 0 20px; list-style:none;
 					}
+                    #accrodion .ui-accordion-header {
+                        border: none;
+                        background: #f7f7f7;
+                        cursor: pointer;
+                        outline: none;
+                    }
 					.nav-catalog li{
 						margin:0 0 5px 0;
 					}
@@ -229,6 +236,9 @@ body{
 	}
 		.catalog-index h1{
 			text-align:center; margin:15px 0 20px 0;
+            color: #2b8aba;
+            font-size: 28;
+            font-family: Verdana, Geneva, sans-serif;
 		}
 		.product-index{
 			text-align:center; width:50%; float:left; margin:0 0 60px 0;
@@ -624,6 +634,6 @@ body{
 	.tech-harakt td{
 		font-size:12px; font-weight:normal; padding:0 20px; 
 		}	
-	
+
 	
 	
